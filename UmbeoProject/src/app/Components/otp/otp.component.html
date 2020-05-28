@@ -1,0 +1,42 @@
+<body>
+    <div id="login">
+    <h3 class="text-center text-black pt-5">Please Enter Otp</h3>
+    <div class="container">
+        <div id="login-row" class="row justify-content-center align-items-center">
+            <div id="login-column" class="col-md-6">
+                <div id="login-box" class="col-md-12">
+                    <form id="login-form" class="form" #reg="ngForm" (ngSubmit)="!reg.invalid && submitOTP()">
+                        <h3 class="text-center text-info">Otp</h3>
+                        <h6 class="text-center text-info">Otp is valid only for 5 minutes</h6>
+                        <div class="form-group">
+                            <label for="username" class="text-info">OTP</label><br>
+                            <input type="text" #n="ngModel"  [(ngModel)]="upo.otp" name="otp" id="username" class="form-control" required="required" minlength="7" maxlength="7">
+
+                            <div *ngIf="n.invalid && (n.dirty || n.touched)" style="color: red;">
+
+                                <div *ngIf="n.errors.required">
+                                  Otp is required.
+                                </div>
+                                <div *ngIf="n.errors.minlength">
+                                    Otp should be of 7 characters
+                                  </div>
+                                  <div *ngIf="n.errors.maxlength">
+                                    Otp should be of 7 characters
+                                  </div>
+                              </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <br>
+                            <input type="submit"  name="submit" class="btn btn-info btn-md" value="Verify">
+                        </div>
+                    </form>
+                    <br>
+                    <!-- <pre class="alert alert-warning" id="disa" *ngIf="bool">{{registered}}</pre> -->
+                    <pre class="alert alert-warning" *ngIf="error">Invalid Otp entered</pre> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>

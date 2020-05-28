@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat Application</title>
+        <link rel="icon" href="../../../assets/logo.PNG">
+    </head>
+    <body>
+
+        <div class="centered-form">
+            <div class="centered-form__box">
+                <h1>Host Meeting</h1>
+                <form>
+                    <!-- <label>Host Name</label>
+                    <input type="text" [(ngModel)]="username" name="username" placeholder="Host name" required autocomplete="off"> -->
+                    <label>Room</label>
+                    <input type="text" [(ngModel)]="room" name="room" placeholder="Room" required autocomplete="off">
+                    <button (click)="hostMeeting()">Host</button>
+                </form>
+                <br>
+                <pre class="alert alert-warning" *ngIf="error">Room already exists!!!</pre>
+            </div>
+        </div>
+    </body>
+</html>

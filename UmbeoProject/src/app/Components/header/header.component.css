@@ -1,0 +1,135 @@
+    .dark{
+    background-color:blue;    
+    }
+    
+    .whi{
+        color: white;
+    }
+    
+    .whi:hover{
+        color: white;
+    }
+    
+    .white{
+        color:white;
+    }
+
+    a.d:hover{
+        z-index: 30;
+    }
+
+    a.d span.s{
+        display: none;
+    }
+
+    a.d:hover span.s{
+        
+        display: block;
+        position: absolute;
+        font-size: 15px;
+        line-height: 18px;
+        border: 1px solid #666666;
+        background-color: lightblue;
+        text-align: left;
+        color: black;
+        width: auto;
+        font-weight: normal;
+        padding: 5px;
+
+    }
+
+    a.ab:hover{
+        z-index: 30;
+    }
+
+    a.ab span.cd{
+        display: none;
+    }
+
+    a.ab:hover span.cd{
+        
+        display: block;
+        position: absolute;
+        font-size: 15px;
+        line-height: 18px;
+        border: 1px solid #666666;
+        background-color: lightblue;
+        text-align: left;
+        color: black;
+        width: auto;
+        font-weight: normal;
+        padding: 5px;
+
+    }
+
+    a.ef:hover{
+        z-index: 30;
+    }
+
+    a.ef span.gh{
+        display: none;
+    }
+
+    a.ef:hover span.gh{
+        
+        display: block;
+        position: absolute;
+        font-size: 15px;
+        line-height: 18px;
+        border: 1px solid #666666;
+        background-color: lightblue;
+        text-align: left;
+        color: black;
+        width: auto;
+        font-weight: normal;
+        padding: 5px;
+
+    }
+
+    a.m:hover{
+        z-index: 30;
+    }
+
+    a.m span.n{
+        display: none;
+    }
+
+    a.m:hover span.n{
+        
+        display: block;
+        position: absolute;
+        font-size: 15px;
+        line-height: 18px;
+        border: 1px solid #666666;
+        background-color: lightblue;
+        text-align: left;
+        color: black;
+        width: auto;
+        font-weight: normal;
+        padding: 5px;
+
+    }
+
+    a.r:hover{
+        z-index: 30;
+    }
+
+    a.r span.p{
+        display: none;
+    }
+
+    a.r:hover span.p{
+        
+        display: block;
+        position: absolute;
+        font-size: 15px;
+        line-height: 18px;
+        border: 1px solid #666666;
+        background-color: lightblue;
+        text-align: left;
+        color: black;
+        width: auto;
+        font-weight: normal;
+        padding: 5px;
+
+    }

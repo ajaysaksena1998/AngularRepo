@@ -1,0 +1,42 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark dark">
+    <a class="navbar-brand" style="color: white;">VEUBE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/welcome" *ngIf="jwtAuth.isAuthenticated()">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link d" *ngIf="jwtAuth.isAuthenticated()" routerLink="joinMeeting">Join Meeting
+            <span class="s">Click here to Join Meeting</span>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link ab" *ngIf="jwtAuth.isAuthenticated()" routerLink="hostMeeting">Host Meeting
+            <span class="cd">Click here to Host Meeting</span>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link ef" *ngIf="jwtAuth.isAuthenticated()" routerLink="changePassword">Change Password
+            <span class="gh">Change Your Account Password</span>
+          </a>
+        </li>
+      </ul>
+    <ul class="navbar-nav navbar-right">
+        <li class="nav-item"> <a class="nav-link whi r" style="color: white;" href="#" *ngIf="!jwtAuth.isAuthenticated()">Login
+          <span class="p">Login</span>
+        </a></li>
+
+        <li class="nav-item"> <a class="nav-link whi m" style="color: white;" routerLink='/logout' href="#" *ngIf="jwtAuth.isAuthenticated()">Logout
+          <span class="n">Logout</span>
+        </a></li>
+    </ul>
+    </div>
+  </nav>
+</header>
+
+
+

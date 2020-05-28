@@ -1,0 +1,24 @@
+/* body{
+  
+    margin: 0;
+    padding: 0;
+    background-color: lightskyblue;
+    height: 89vh;
+} */
+/* body {
+    background-image: url('/assets/img/hospi.jpg');
+    background-size: cover;
+    background-position: center center;
+  } */
+
+  .hero {
+    background-image: url('/assets/img/auto.jpg') !important;
+    background-size: cover;
+    background-position: center center;
+    min-height: 90vh;
+    height: max-content;
+  }
+
+  body{
+      background-color: lightskyblue;
+  }

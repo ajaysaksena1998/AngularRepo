@@ -1,0 +1,62 @@
+<body>
+    <div id="login">
+    <h3 class="text-center text-black pt-5">Please Login</h3>
+    <div class="container">
+        <div id="login-row" class="row justify-content-center align-items-center">
+            <div id="login-column" class="col-md-6">
+                <div id="login-box" class="col-md-12">
+                    <!-- <div class="alert alert-warning" *ngIf=" todoForm.dirty && todoForm.invalid">Please Enter Valid Values</div> -->
+                    <!-- <div class="alert alert-warning" *ngIf=" name.dirty && name.invalid">Username cannot be empty</div>
+                    <div class="alert alert-warning" *ngIf=" pass.dirty && pass.invalid">Password cannot be empty</div> -->
+                    <form id="login-form" class="form" #login="ngForm" (ngSubmit)="!login.invalid && handleJWTLogin()">
+                        <h3 class="text-center text-info">Login</h3>
+                        <div class="form-group">
+                            <label for="username" class="text-info">Email</label><br>
+                            <input type="text" #name="ngModel" [(ngModel)]="username" name="username" id="username" class="form-control" required="required">
+                            <div *ngIf="name.invalid && (name.dirty || name.touched)" style="color: red;">
+
+                                <div *ngIf="name.errors.required">
+                                  User Name is required.
+                                </div>
+                              
+                              </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="text-info">Password</label><br>
+                            <input type="password" #pass="ngModel" [(ngModel)]="password" name="password" id="password" class="form-control" required="required">
+                            <div *ngIf="pass.invalid && (pass.dirty || pass.touched)">
+
+                                <div *ngIf="pass.errors.required" style="color: red;">
+                                  Password is required.
+                                </div>
+                              
+                              </div>
+                        </div>
+                        <div class="form-group">
+                            <br>                
+                            <input type="submit" name="submit" class="btn btn-info btn-md" value="Login">
+                        </div><br>
+                        <div id="register-link" class="text-right">
+                            <a routerLink="/register" class="text-info">Register</a>
+                        </div>
+                        <br>
+                        <br><br><br>
+                        <div id="register-link" class="text-right">
+                            <a routerLink="/forgotpassword" class="text-info">Forgot Your Password</a>
+                        </div>
+                    </form>
+                    <br><br>
+                    <pre class="alert alert-warning" id="disa" *ngIf="invalidLogin">{{message}}</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+     <!-- <script type="text/javascript">
+        function disappear() { 
+                setTimeout(function() { 
+                    $('#disa').fadeOut('fast'); 
+                }, 1000);
+</script> -->
+</body>

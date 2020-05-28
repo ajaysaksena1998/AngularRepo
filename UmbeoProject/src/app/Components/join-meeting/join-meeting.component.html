@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat Application</title>
+        <link rel="icon" href="../../../assets/logo.PNG">
+    </head>
+    <body>
+
+        <div class="centered-form">
+            <div class="centered-form__box">
+                <h1>Join</h1>
+                <form>
+                    <!-- <label>Display name</label>
+                    <input type="text" [(ngModel)]="username" name="username" placeholder="Display name" required autocomplete="off"> -->
+                    <label>Room</label>
+                    <input type="text" [(ngModel)]="room" name="room" placeholder="Room" required autocomplete="off">
+                    <button (click)="joinMeeting()">Join</button>
+                </form>
+                <br>
+                <pre class="alert alert-warning" *ngIf="error">Room does not exist!!!</pre>
+            </div>
+        </div>
+    </body>
+</html>

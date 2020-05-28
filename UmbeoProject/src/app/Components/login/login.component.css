@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgoldenrodyellow;
+    height: 90vh;
+  }
+  #login .container #login-row #login-column #login-box {
+    margin-top: 10px;
+    max-width: 600px;
+    height: 450px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
+  .cent{
+    align-self: center;
+  }
+
+  /* @charset "utf-8";
+	.NormalCharacterStyle4
+{
+	font-family : Open Sans;
+	font-size : 11px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle3
+{
+	font-family : Open Sans;
+	font-size : 8px;
+	color : #000000;
+	color : rgb(0, 0, 0);
+	opacity : 0.25;
+	filter: alpha(opacity=25) progid:DXImageTransform.Microsoft.Alpha(opacity=25) ;
+}
+.st0
+{
+	border-style : Solid;
+	border-color : #222528;
+	border-color : rgba(34, 37, 40, 1);
+	border-width : 2px;
+}
+.st1
+{
+	background : #2E2E3A;
+	background : rgba(46, 46, 58, 1);
+	border-radius : 10px;
+	-moz-border-radius : 10px;
+	-webkit-border-radius : 10px;
+}
+.st2
+{
+	border-style : Solid;
+	border-color : #FFFFFF;
+	border-color : rgba(255, 255, 255, 1);
+	border-width : 1px;
+	border-radius : 10px;
+	-moz-border-radius : 10px;
+	-webkit-border-radius : 10px;
+}
+.st3
+{
+	background : #FFFFFF;
+	background : rgba(255, 255, 255, 1);
+	border-radius : 6px;
+	-moz-border-radius : 6px;
+	-webkit-border-radius : 6px;
+}
+.st4
+{
+	border-style : Solid;
+	border-color : #FFFFFF;
+	border-color : rgba(255, 255, 255, 1);
+	border-width : 1px;
+}
+.image4
+{
+	background-image : url(image4.png);
+	background-repeat : no-repeat;
+}
+.image5
+{
+	background-image : url(image5.png);
+	background-repeat : no-repeat;
+}
+.image3
+{
+	background-image : url(image3.png);
+	background-repeat : no-repeat;
+}
+.image2
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+}
+.image1
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+}
+.NormalCharacterStyle2
+{
+	font-family : Open Sans;
+	font-size : 10px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle1
+{
+	font-family : Open Sans;
+	font-size : 12px;
+	letter-spacing : 0.24px;
+	color : #738AD9;
+	color : rgb(115, 138, 217);
+	text-outline : #738AD9;
+	text-outline : rgb(115, 138, 217);
+}
+.NormalCharacterStyle
+{
+	font-family : Open Sans;
+	font-size : 12px;
+	letter-spacing : 0.24px;
+	color : #738AD9;
+	color : rgb(115, 138, 217);
+	text-outline : #738AD9;
+	text-outline : rgb(115, 138, 217);
+}
+.NormalCharacterStyle9
+{
+	font-family : Open Sans SemiBold;
+	font-size : 24px;
+	letter-spacing : 0.48px;
+	color : #474747;
+	color : rgb(71, 71, 71);
+}
+.NormalCharacterStyle8
+{
+	font-family : Open Sans;
+	font-size : 18px;
+	letter-spacing : 1.44px;
+	color : #222528;
+	color : rgb(34, 37, 40);
+}
+.NormalCharacterStyle7
+{
+	font-family : Open Sans;
+	font-size : 18px;
+	letter-spacing : 1.44px;
+	color : #222528;
+	color : rgb(34, 37, 40);
+}
+.NormalCharacterStyle5
+{
+	font-family : Open Sans;
+	font-size : 11px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle6
+{
+	font-family : Open Sans;
+	font-size : 18px;
+	letter-spacing : 1.44px;
+	color : #222528;
+	color : rgb(34, 37, 40);
+} */
